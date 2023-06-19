@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
 }
@@ -7,6 +11,25 @@
   pointer-events: none;
 }
 
+.navbar{
+  text-align:center ;
+  background-color: grey;
+}
+.navbar li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.navbar .active{
+  color: skyblue;
+}
+.navbar-link{
+  color: black;
+  text-decoration: none;
+}
+.navbar-link:hover{
+  color: blue;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
